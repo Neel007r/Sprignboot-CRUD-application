@@ -94,5 +94,10 @@ public class EmployeeRestController {
 		
 		return "Delete employee id - " + employeeId;
 	}
+	
+	@RequestMapping("/test")
+	public String tester() {
+		return "just for testing";
+	}
 
 }
